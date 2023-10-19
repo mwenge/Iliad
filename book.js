@@ -134,12 +134,11 @@ function displayTranslation(line) {
   allLines = Object.entries(translation)
     .filter(([k,v]) => v == ref)
     .map(([k,v]) => k);
-  allLines.push(ref);
+  allLines.push(ref.toString());
 
   // Blur the rest of the text.
   allLines.forEach( i => {
     let line = document.getElementById("line-"+i);
-    console.log(line);
     line.style.backgroundColor = "rgba(80,80,80,0.1)";
   });
 
