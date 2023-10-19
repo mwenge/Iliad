@@ -225,7 +225,31 @@ span {
     margin-top: 5px;
   }
 }
-@media (500px <= width <= 1020px) {
+@media (500px <= width <= 750px) {
+  .hexameter-line {
+    font-size: 20px;
+  }
+  .comment, .parallel_translation {
+    font-size: 20px;
+  }
+  .author {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 23px;
+  }
+  .book {
+    font-size: 20px;
+  }
+  .helper {
+    font-size: 20px;
+  }
+  .line-number {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+@media (750px <= width <= 1020px) {
   body{
     padding-top: 50px;
   }
