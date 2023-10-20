@@ -245,7 +245,7 @@ span {
     font-size: 20px;
   }
   .line-number {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 5px;
   }
 }
@@ -277,45 +277,14 @@ span {
   }
 }
 @media (1020px <= width <= 1420px) {
-  body{
-    padding-top: 50px;
-  }
-  .hexameter-line {
-    font-size: 30px;
-  }
-  .comment, .parallel_translation {
-    font-size: 30px;
-  }
-  .author {
-    font-size: 35px;
-  }
-  .title {
-    font-size: 33px;
-  }
-  .book {
-    font-size: 30px;
-  }
-  #transCount,.helper {
-    font-size: 30px;
-  }
-  .line-number {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-}
-@media (width >= 1420px) {
   .masthead-container,.comment, .parallel_translation, .greek-body {
-    margin-left: 20%;
-  }
-  .masthead-container {
-    width: 50%;
+    margin-left: 10%;
   }
   .hexameter-line {
     font-size: 30px;
   }
   .comment, .parallel_translation {
     font-size: 30px;
-    width: 50%;
     overflow-y: none;
   }
   .author {
@@ -334,7 +303,38 @@ span {
     font-size: 20px;
     margin-top: 10px;
   }
-  .greek-body {
-    width: 50%;
+  .masthead-container, .comment, .parallel_translation, .greek-body {
+    width: 80%;
+  }
+}
+@media (width >= 1420px) {
+  .masthead-container,.comment, .parallel_translation, .greek-body {
+    margin-left: 20%;
+  }
+  .hexameter-line {
+    font-size: 30px;
+  }
+  .comment, .parallel_translation {
+    font-size: 30px;
+    overflow-y: none;
+  }
+  .author {
+    font-size: 35px;
+  }
+  .title {
+    font-size: 33px;
+  }
+  .book {
+    font-size: 30px;
+  }
+  #transCount,.helper {
+    font-size: 30px;
+  }
+  .line-number {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .masthead-container, .comment, .parallel_translation, .greek-body {
+    width: 60%;
   }
 }
