@@ -206,7 +206,7 @@ span {
 }
 .line-number {
   font-size: 2vw;
-  margin-top: 0.5vw;
+  margin-top: 0.7vh;
 }
 .comment, .parallel_translation {
   font-size: 3vw;
@@ -224,6 +224,29 @@ span {
   font-size: 3.5vw;
 }
 
+@media (200px <= width <= 500px) {
+  .hexameter-line {
+    font-size: 4vw;
+  }
+  .line-number {
+    font-size: 2.4vw;
+  }
+  .comment, .parallel_translation {
+    font-size: 4vw;
+  }
+  .author {
+    font-size: 6.5vw;
+  }
+  .title {
+    font-size: 5.5vw;
+  }
+  .book {
+    font-size: 4.5vw;
+  }
+  #transCount,.helper {
+    font-size: 4vw;
+  }
+}
 @media (800px <= width) {
   .masthead-container,.comment, .parallel_translation, .greek-body {
     margin-left: 20%;
@@ -235,8 +258,7 @@ span {
     font-size: 2vw;
   }
   .line-number {
-    font-size: 1vw;
-    margin-top: 0.1vw;
+    font-size: 1.5vw;
   }
   .comment, .parallel_translation {
     font-size: 2vw;
