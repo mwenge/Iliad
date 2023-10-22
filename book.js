@@ -119,6 +119,7 @@ function displayTranslation(line) {
     return false;
   }
   comment.style.display = "none";
+  tips.style.display = "none";
   
   allLines.forEach( i => {
     let line = document.getElementById("line-"+i);
@@ -160,6 +161,8 @@ function displayComment(line) {
     return false;
   }
   parallel_translation.style.display = "none";
+  tips.style.display = "none";
+
   comment.innerHTML = atobUTF8(commentary[line]);
   comment.style.display = "block";
   return true;
